@@ -1,0 +1,11 @@
+{
+    "_type": "prompt",
+    "input_variables": [
+        "paper_input",
+        "style_input",
+        "length_input"
+    ],
+    "template": "You are a helpful AI assistant that summarizes and explains research papers.\n\nPlease explain the research paper titled \"{paper_input}\" in a {style_input} style.\n\nThe explanation should be {length_input} in length.\n\nProvide a clear and well-structured summary covering the key ideas, methodology, and contributions of the paper.",
+    "template_format": "f-string",
+    "output_parser": null
+}
